@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Juego()
+comment1.params=
+comment1.target=int[][]\ getMatriz()
+comment2.params=nombre
+comment2.target=void\ escribirNombre(java.lang.String)
+comment2.text=\ \r\n\ Modifica\ el\ archivo\ Ganadores\ con\ el\ nombre\ dado\ \r\n\ @param\ nombre\ nombre\ dado\ por\ el\ usuario\r\n
+comment3.params=
+comment3.target=int\ getPuntaje()
+numComments=4

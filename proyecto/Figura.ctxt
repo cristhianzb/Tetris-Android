@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=puntos
+comment0.target=Figura(Punto[])
+comment1.params=
+comment1.target=void\ calcularAncho()
+comment2.params=
+comment2.target=void\ calcularAlto()
+comment3.params=
+comment3.target=int\ getAncho()
+comment4.params=
+comment4.target=int\ getAlto()
+comment5.params=
+comment5.target=Punto[]\ getCuerpo()
+comment6.params=otra
+comment6.target=boolean\ equals(Figura)
+numComments=7

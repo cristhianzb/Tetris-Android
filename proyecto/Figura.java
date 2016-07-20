@@ -12,14 +12,16 @@ public class Figura
     private Figura siguiente;
     private int[] piso; 
     
-    public Figura(Punto[] puntos){
+    public Figura(Punto[] puntos)
+    {
         cuerpo = puntos;
         calcularAncho();
         calcularAlto();
         //calcularPiso();
     }
     
-    private void calcularAncho(){
+    private void calcularAncho()
+    {
         int a = 0;
         for(int i = 0; i < cuerpo.length; i++){
             if(cuerpo[i].getX() > a){
@@ -29,7 +31,8 @@ public class Figura
         ancho = a + 1;
     }
     
-    private void calcularAlto(){
+    private void calcularAlto()
+    {
         int a = 0;
         for(int i = 0; i < cuerpo.length; i++){
             if(cuerpo[i].getY() > a){
@@ -39,19 +42,23 @@ public class Figura
         alto = a + 1;
     }
     
-    public int getAncho(){
+    public int getAncho()
+    {
         return ancho;
     }
     
-    public int getAlto(){
+    public int getAlto()
+    {
         return alto;
     }
     
-    public Punto[] getCuerpo(){
+    public Punto[] getCuerpo()
+    {
         return cuerpo;
     }
     
-    public boolean equals(Figura otra){
+    public boolean equals(Figura otra)
+    {
         boolean resp = true;
         int i = 0;
         while(resp && i < cuerpo.length){
@@ -60,5 +67,17 @@ public class Figura
         return resp;
     }
     
+    public Figura rotar()
+    {
+        Punto[] puntos = new Punto[4];
+        for(int i = 0; i < cuerpo.length; i++){
+            puntos[i] = rotar(cuerpo[i]);
+        }
+        return new Figura(puntos);
+    } 
     
+    private Punto rotar(Punto punto)
+    {    
+        return null;        
+    }
 }

@@ -9,18 +9,27 @@ public class Tablero
 {
     private int[][] matriz;
     //private ArrayList<Tetrimino> tetriminos;
-    private long dtiempo;
     
     
-    public Tablero(){
+    
+    public Tablero()
+    {
         iniciarTablero();
     }
     
-    public void iniciarTablero(){
+    public void iniciarTablero()
+    {
         matriz = new int[19][10];
     }
     
-    public int[][] getMatriz(){
+    public int[][] getMatriz()
+    {
         return matriz;
+    }
+    
+    public Figura generarFigura()
+    {   
+        Figura figura;
+        return null;
     }
 }

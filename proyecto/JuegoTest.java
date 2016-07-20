@@ -39,4 +39,40 @@ public class JuegoTest
     public void tearDown()
     {
     }
+    
+    @Test
+    public void testGetPuntaje()
+    {
+        Juego juego = new Juego();
+        assertEquals(0,juego.getPuntaje());
+    }
+    
+    @Test
+    public void testGetMatriz()
+    {
+        Juego juego = new Juego();
+        assertArrayEquals(new int[19][10],juego.getMatriz());
+    }
+    
+    @Test
+    public void testAumentarPuntaje()
+    {
+        Tablero tablero = new Tablero();
+    }
+    
+    @Test
+    public void testGetNivel()
+    {
+        Juego juego = new Juego();
+        assertEquals(1,juego.getNivel());
+    }
+    
+    @Test
+    public void testModificarListaGanadores()
+    {
+        String nombre = "Eduardo";
+        Juego juego = new Juego();
+        juego.escribirNombre(nombre);
+        assertEquals(nombre, juego.getListaGanadores());
+    }
 }

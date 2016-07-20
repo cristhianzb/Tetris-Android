@@ -9,11 +9,15 @@ public class Juego
 {
     private Tablero tablero;
     private int puntaje;
+    private int nivel;
+    private long dtiempo;
     
     public Juego()
     {
         tablero = new Tablero();
         puntaje = 0;
+        nivel = 1;
+        dtiempo = 500;
     }
     
     public int[][] getMatriz()
@@ -35,5 +39,18 @@ public class Juego
         return puntaje;
     }
     
+    public int getNivel()
+    {
+        return nivel;
+    }
     
+    public void subirNivel()
+    {
+        nivel++;
+    }
+    
+    public String getListaGanadores()
+    {
+        return "";
+    }
 }

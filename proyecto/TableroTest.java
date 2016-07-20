@@ -40,18 +40,5 @@ public class TableroTest
     {
     }
     
-    @Test
-    public void testAumentarPuntaje(){
-        
-    }
     
-    @Test
-    public void testSubirNivel(){
-    
-    }
-    
-    @Test
-    public void testModificarListaGanadores(){
-    
-    }
 }

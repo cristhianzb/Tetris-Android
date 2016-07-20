@@ -8,4 +8,6 @@
     <string name="accion_play">Jugar</string>
 	<string name="accion_lista_ganadores">Lista de Ganadores</string>
 	<string name="accion_acerca_de">Acerca de</string>
+	<string name="accion_salir">Salir</string>
+	
 </resources>

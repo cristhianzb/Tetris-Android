@@ -31,7 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
         android:layout_below="@+id/button2"
+        android:onClick="@string/accion_acerca_de"
         android:text="@string/accion_acerca_de" />
+
+    	
 
     <TextView
         android:id="@+id/textView1"
@@ -41,5 +44,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
         android:text="@string/bienvenida" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:text="@string/accion_salir" />
 
 </RelativeLayout>

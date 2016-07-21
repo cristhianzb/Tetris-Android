@@ -8,11 +8,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=	"Esta aplicacion del juego de Tetris, ha sido desarrollada como 
-        				un proyecto de clase por:\n 
-        				Cristhian Zneteno Brañez\n
-        				Ronal Heredia Camacho\n
-        				Misael Javier Zurita Canaviri"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        android:text="Esta aplicacion del juego de Tetris,ha sido desarrollada como un proyecto de clase por:\nCristhian Zenteno Brañez\nRonal Heredia Camacho\nMisael Javier Zurita Canaviri"
+        android:textAppearance="?android:attr/textAppearanceMedium"/> 
 
 </LinearLayout>

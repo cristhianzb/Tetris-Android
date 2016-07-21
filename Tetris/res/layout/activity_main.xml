@@ -15,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="95dp"
+        android:onClick="lanzarJugar"
         android:text="@string/accion_play" />
 
     <Button
@@ -23,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
-        android:text="@string/accion_lista_ganadores" />
+        android:onClick="lanzarListaPuntuaciones"
+        android:text="@string/accion_lista_puntuaciones" />
 
     <Button
         android:id="@+id/button3"
@@ -31,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
         android:layout_below="@+id/button2"
-        android:onClick="@string/accion_acerca_de"
+        android:onClick="lanzarAcercaDe"
         android:text="@string/accion_acerca_de" />
 
     	

@@ -38,4 +38,14 @@ public class MainActivity extends Activity {
 		Intent i = new Intent(this,AcercaDe.class);
 		startActivity(i);
 	}
+	
+	public void lanzarListaPuntuaciones(View view){
+		Intent i = new Intent(this,ListaPuntuaciones.class);
+		startActivity(i);
+	}
+	
+	public void lanzarJugar(View view){
+		Intent i = new Intent(this,graficoTablero.class);
+		startActivity(i);
+	}
 }
